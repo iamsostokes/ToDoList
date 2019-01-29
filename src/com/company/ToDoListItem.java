@@ -10,26 +10,26 @@ public class ToDoListItem {
     private Boolean done;
 
     public void itemDetails() {
-        System.out.println("The description of the item is " + itemDescription +
-                ", the item on ToDo list name is " + toDoItemName +
-                ", is the item still in progress? true for yes and false for no " + inProgress +
-                ", is the item done? true for yes and false for no " + done);
+        System.out.println("• " + toDoItemName + "\n" +
+                "Item description: " +itemDescription  + "\n" +
+                "In progress status: " + inProgress + "\n" +
+                "Complete status: " + done);
     }
 
-    public String getItemDiscription() {
+    public String getItemDescription() {
         return itemDescription;
     }
 
-    public void setItemDiscription(String itemDiscription) {
-        this.itemDescription = itemDiscription;
+    public void setItemDescription(String itemDescription) {
+        this.itemDescription = itemDescription;
     }
 
-    public String getStillNeedTodo() {
+    public String getToDoItemName() {
         return toDoItemName;
     }
 
-    public void setStillNeedTodo(String stillNeedTodo) {
-        this.toDoItemName = stillNeedTodo;
+    public void setToDoItemName(String ToDoName) {
+        this.toDoItemName = ToDoName;
     }
 
     public Boolean getInProgress() {
