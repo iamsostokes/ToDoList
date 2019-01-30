@@ -8,6 +8,7 @@ public class ToDoListDemo {
 
         Scanner scan = new Scanner(System.in);
         int userInput;
+        boolean user;
         ToDoList list = new ToDoList();
         boolean creatingList;
 
@@ -36,17 +37,15 @@ public class ToDoListDemo {
                         newItem.setToDoItemName(newItemName);
 
                         System.out.println("Give a description of the item you are adding to the list.");
-                        scan.nextLine();
                         String newItemDescription = scan.nextLine();
                         newItem.setItemDescription(newItemDescription);
 
                         System.out.println("Is this item currently in progress? Enter true for yes and false for no.");
-                        scan.nextBoolean();
                         Boolean newInProgressStatus = scan.nextBoolean();
                         newItem.setInProgress(newInProgressStatus);
 
+
                         System.out.println("Is this Item Done yet?  Enter true for yes and false for no.");
-                        scan.nextBoolean();
                         Boolean newDoneStatus = scan.nextBoolean();
                         newItem.setDone(newDoneStatus);
 
@@ -56,7 +55,14 @@ public class ToDoListDemo {
 
                     } else {
                         System.out.println("You can not add anymore items to your list.");
-                    } break;
+                    }
+                    break;
+
+                case 2:
+                    list.printListItemDetails();
+                    break;
+
+
             }
 
 

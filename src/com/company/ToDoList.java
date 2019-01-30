@@ -9,9 +9,19 @@ public class ToDoList {
         for (int i = 0; i < items.length; i++) {
             if (items[i] != null) {
                 totalItems++;
+
             }
         }
         return totalItems;
+    }
+
+    public void printListItemDetails () {
+        for(int i = 0; i < items.length; i++) {
+            if (items[i] != null) {
+                System.out.print(i + "      ");
+                items[i].itemDetails();
+            }
+        }
     }
 
     public void addItemToToDoList(ToDoListItem item) {
