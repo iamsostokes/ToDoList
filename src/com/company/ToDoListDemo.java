@@ -8,20 +8,17 @@ public class ToDoListDemo {
 
         Scanner scan = new Scanner(System.in);
         int userInput;
-        boolean user;
         ToDoList list = new ToDoList();
-        boolean creatingList;
 
         do {
             System.out.println("Welcome to Todo List Creator!");
             System.out.println("What would you like to do?\n" +
                     "1. Add a item to your list\n" +
                     "2. Display items on list\n" +
-                    "3. Display items in the todo state\n" +
-                    "4. Display items in the in progress state\n" +
-                    "5. Display items that are done\n" +
-                    "6. Display exiting items\n" +
-                    "7. Exit ToDo list");
+                    "3. Display items in the in progress state\n" +
+                    "4. Display items that are done\n" +
+                    "5. Display exiting items\n" +
+                    "6. Exit ToDo list");
             System.out.println("Enter a number to make your selection");
 
             userInput = scan.nextInt();
