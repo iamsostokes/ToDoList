@@ -15,9 +15,9 @@ public class ToDoListDemo {
             System.out.println("What would you like to do?\n" +
                     "1. Add a item to your list\n" +
                     "2. Display items on list\n" +
-                    "3. Display items in the in progress state\n" +
-                    "4. Display items that are done\n" +
-                    "5. Display exiting items\n" +
+                    "3. Would you like to mark an item on your list In Progress?\n" +
+                    "4. Would you like to mark an item on your In Progress list Done?\n" +
+                    "5. Would you like to Delete an item?\n" +
                     "6. Exit ToDo list");
             System.out.println("Enter a number to make your selection");
 
@@ -25,7 +25,6 @@ public class ToDoListDemo {
 
             switch (userInput) {
                 case 1:
-                    if (list.listSlotAvailable()) {
                         ToDoListItem newItem = new ToDoListItem();
 
                         System.out.println("What is the name of the item you would like to add?");
@@ -50,9 +49,9 @@ public class ToDoListDemo {
 
                         list.addItemToToDoList(newItem);
 
-                    } else {
+
                         System.out.println("You can not add anymore items to your list.");
-                    }
+
                     break;
 
                 case 2:

@@ -35,18 +35,12 @@ public class ToDoList {
 
 //creating a variable that will print out all of the values in each index of the todo list array.
 
-    public  void  printListItemDetails () {
 
+    public void printListItemDetails () {
+            for (ToDoListItem item: items) {
+                item.itemDetails();
+            }
     }
-
-//    public void printListItemDetails () {
-//        for(int i = 0; i < items.length; i++) {
-//            if (items[i] != null) {
-//                System.out.print(i + "      ");
-//                items[i].itemDetails();
-//            }
-//        }
-//    }
 
     public void addItemToToDoList(ToDoListItem item) {
         items.add(item);
@@ -61,13 +55,13 @@ public class ToDoList {
 //        }
 //    }
 //
-    public boolean listSlotNotAvailable() {
-        return totalItemsInList() == items.size();
-    }
-
-    public boolean listSlotAvailable() {
-        return !listSlotNotAvailable();
-    }
+//    public boolean listSlotNotAvailable() {
+//        return totalItemsInList() == items.size();
+//    }
+//
+//    public boolean listSlotAvailable() {
+//        return !listSlotNotAvailable();
+//    }
 //
 //
 //
