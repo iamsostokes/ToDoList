@@ -4,66 +4,57 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ToDoList {
+
+
+
     //Creating a ArrayLit for my todo list items.
     public List<ToDoListItem> items = new ArrayList<>();
 
 
-
-
-    //Creating new way to get to total elements in my todo list array.
-
-
-//This was the old way I had it formatted with just a normal array.
-//    public   ToDoListItem[] items = new ToDoListItem[3];
-
-    //Below is the old way I had the code formatted for a normal array.
-    public int totalItemsInList() {
-        int totalItems = 0;
-        for (int i = 0; i < items.size(); i++) {
-            if (items.get(i) != null) {
-                totalItems++;
-
-            }
-        }
-        return totalItems;
-    }
-
-
-
-
-
-
-//creating a variable that will print out all of the values in each index of the todo list array.
-
-
+    //creating a method that will print out all of the values in each index of the todo list array.
     public void printListItemDetails () {
             for (ToDoListItem item: items) {
                 item.itemDetails();
             }
     }
+    //hasId(put what perameters you want it to accept)
+    public boolean hasId (int idNumber) {
+        boolean id = false;
+        //creating a name for the variable to store the value of the loop | picking what object you want to loop through
+        for (ToDoListItem idItem:  items) {
+            if (idItem.getIDNumber() == idNumber) {
+                id = true;
+            }
+        }
+        return id;
+    }
 
+    public int getIndexFromId (int id) {
+        int toDoItemIndex = -1;
+        for (ToDoListItem toDoItem: items) {
+            if (toDoItem.getIDNumber() == id) {
+                toDoItemIndex = items.indexOf(toDoItem);
+
+            }
+        }
+        return toDoItemIndex;
+    }
+
+    public int getSize () {
+        return items.size();
+    }
+
+
+    //creating a method that will add items to the todo list.
     public void addItemToToDoList(ToDoListItem item) {
         items.add(item);
     }
-//
-//    public void addItemToToDoList(ToDoListItem item) {
-//        for (int i = 0; i < items.length; i++) {
-//            if (items[i] == null) {
-//                items[i] = item;
-//                break;
-//            }
-//        }
-//    }
-//
-//    public boolean listSlotNotAvailable() {
-//        return totalItemsInList() == items.size();
-//    }
-//
-//    public boolean listSlotAvailable() {
-//        return !listSlotNotAvailable();
-//    }
-//
-//
-//
-//
+
+    public List<ToDoListItem> getItems() {
+        return items;
+    }
+
+    public void setItems(List<ToDoListItem> items) {
+        this.items = items;
+    }
 }

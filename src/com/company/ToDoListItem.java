@@ -8,12 +8,13 @@ public class ToDoListItem {
     private String toDoItemName;
     private Boolean inProgress;
     private Boolean done;
+    private int iDNumber;
 
     public void itemDetails() {
-        System.out.println("• " + toDoItemName + "\n" +
+        System.out.println("ID number:"+ iDNumber + "  " + toDoItemName + "\n" +
                 "             Item description: " +itemDescription  + "\n" +
-                "           In progress status: " + inProgress + "\n" +
-                "              Complete status: " + done);
+                "             In progress status: " + inProgress + "\n" +
+                "             Complete status: " + done);
     }
 
     public String getItemDescription() {
@@ -46,6 +47,14 @@ public class ToDoListItem {
 
     public void setDone(Boolean done) {
         this.done = done;
+    }
+
+    public int getIDNumber() {
+        return iDNumber;
+    }
+
+    public void setiDNumber(int iDNumber) {
+        this.iDNumber = iDNumber;
     }
 }
 
