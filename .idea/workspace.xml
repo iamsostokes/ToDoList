@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8b133cc-73cb-4706-a5fc-397a36735c2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/company/InProgress.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/company/InProgress.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/company/ToDoList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/company/ToDoList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/company/ToDoListDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/company/ToDoListDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ToDoList/com/company/ToDoListItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ToDoList/com/company/ToDoListItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/InProgress.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/InProgress.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ToDoList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ToDoList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/ToDoListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/ToDoListItem.java" afterDir="false" />
@@ -21,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
+            <state relative-caret-position="525">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="119">
+              <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
               <folding>
                 <element signature="e#1223#1224#0" expanded="true" />
                 <element signature="e#1254#1255#0" expanded="true" />
@@ -48,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+            <state relative-caret-position="24">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1218#1219#0" expanded="true" />
@@ -95,10 +89,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/ToDoListItem.java" />
-        <option value="$PROJECT_DIR$/src/com/company/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/com/company/InProgress.java" />
         <option value="$PROJECT_DIR$/src/com/company/ToDoListDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ToDoListItem.java" />
+        <option value="$PROJECT_DIR$/src/com/company/ToDoList.java" />
       </list>
     </option>
   </component>
@@ -143,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548972161711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548974762033" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,15 +179,16 @@
       <option name="presentableId" value="Default" />
       <updated>1548708605057</updated>
       <workItem from="1548708627748" duration="27128000" />
-      <workItem from="1548854633356" duration="33108000" />
+      <workItem from="1548854633356" duration="35300000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60236000" />
+    <option name="totallyTimeSpent" value="62428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-14" y="54" width="1357" height="676" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25323194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -253,8 +248,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        <state relative-caret-position="119">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
           <folding>
             <element signature="e#1223#1224#0" expanded="true" />
             <element signature="e#1254#1255#0" expanded="true" />
@@ -264,26 +259,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="24">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1218#1219#0" expanded="true" />
             <element signature="e#1368#1369#0" expanded="true" />
             <element signature="e#1440#1441#0" expanded="true" />
             <element signature="e#1528#1529#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/ToDoListDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="75" column="48" lean-forward="true" selection-start-line="75" selection-start-column="48" selection-end-line="75" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

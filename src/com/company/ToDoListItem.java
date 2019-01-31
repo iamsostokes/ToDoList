@@ -12,9 +12,9 @@ public class ToDoListItem {
 
     public void itemDetails() {
         System.out.println("ID number:"+ iDNumber + "  " + toDoItemName + "\n" +
-                "             Item description: " +itemDescription  + "\n" +
-                "             In progress status: " + inProgress + "\n" +
-                "             Complete status: " + done);
+                "             Item description: " +itemDescription  + ".");
+//                "             In progress status: " + inProgress + "\n" +
+//                "             Complete status: " + done);
     }
 
     public String getItemDescription() {

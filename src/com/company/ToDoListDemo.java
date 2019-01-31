@@ -47,14 +47,15 @@ public class ToDoListDemo {
                         String newItemDescription = scan.nextLine();
                         newItem.setItemDescription(newItemDescription);
 
-                        System.out.println("Is this item currently in progress? Enter true for yes and false for no");
-                        Boolean newInProgressStatus = scan.nextBoolean();
-                        newItem.setInProgress(newInProgressStatus);
-
-
-                        System.out.println("Is this Item Done yet?  Enter true for yes and false for no.");
-                        Boolean newDoneStatus = scan.nextBoolean();
-                        newItem.setDone(newDoneStatus);
+//              commenting out this cold because I won't need these questions once I finish my in progress and done list are made
+//                        System.out.println("Is this item currently in progress? Enter true for yes and false for no");
+//                        Boolean newInProgressStatus = scan.nextBoolean();
+//                        newItem.setInProgress(newInProgressStatus);
+//
+//
+//                        System.out.println("Is this Item Done yet?  Enter true for yes and false for no.");
+//                        Boolean newDoneStatus = scan.nextBoolean();
+//                        newItem.setDone(newDoneStatus);
 
                         newItem.itemDetails();
 

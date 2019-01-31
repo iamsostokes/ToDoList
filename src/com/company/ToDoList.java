@@ -17,7 +17,7 @@ public class ToDoList {
                 item.itemDetails();
             }
     }
-    //hasId(put what perameters you want it to accept)
+    //hasId(put what parameters you want it to accept)
     public boolean hasId (int idNumber) {
         boolean id = false;
         //creating a name for the variable to store the value of the loop | picking what object you want to loop through
